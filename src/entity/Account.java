@@ -8,7 +8,7 @@ package entity;
  *
  * @author admin
  */
-
+//Đốn tim chàng ở chốn thiên đàng =))
 public class Account { // tạo đối tượng
     
     private String account ;
