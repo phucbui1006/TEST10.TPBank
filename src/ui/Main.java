@@ -22,7 +22,6 @@ public class Main {
 
         // Vòng lặp chọn ngôn ngữ sẽ trỏ đến class Language
         while (true) {
-            System.out.println("======= Tien phong bank ========");
             System.out.println("1. English.");
             System.out.println("2. Vietnamese.");
             System.out.println("3. Exit program.");
@@ -31,6 +30,7 @@ public class Main {
 
             switch (choice) {
                 case 1: {
+                    System.out.println("======= Tien phong bank ========");
 
                     // Hàm gọi từ java nên gõ đúng , en là tên cuối của class Language_en
                     Locale.setDefault(new Locale("en", "US"));
