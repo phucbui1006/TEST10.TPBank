@@ -14,9 +14,5 @@ public class Icontants {
     
     public static int CAPCHAR_LENGTH = 5; // độ dài của mã capcha cố định là 5
     public static String ACCOUNT = "^[0-9]{10}$"; // Tài khoản ngân hàng từ 0-9 và chỉ có 10 kí tự
-<<<<<<< HEAD
     public static String PASSWORD = "^(?=.*[a-z])(?=.*\\d)(?=.*[\\W_])[a-z\\d\\W_]{8,31}$"; // có chữ thường, có số, kí tự đặc biệt và gồm 8-31 kí tự
-=======
-    public static String PASSWORD = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,31}$"; // có đủ chữ hoa, chữ thường, có số và gồm 8-31 kí tự
->>>>>>> fb7fab3e6426ee7a63362b8785981ed2a6c85760
 }
